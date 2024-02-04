@@ -4,10 +4,11 @@
 3. Initialize DBT project `dbt init`. Identifier account should be : `<orgname>-<account_name>`
 4. Choose keypair auth for more secure way to authenticate
 5. Generate key pair and setup public key for specific user in Snowflake https://docs.snowflake.com/en/user-guide/key-pair-auth
-6. Run your first model `dbt run -s my_first_dbt_model`
-7. If database not found don't forget to create it first using `CREATE DATABASE <DB_NAME>;`
-8. Setup profiles.yml https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup
-9. Setup sources https://docs.getdbt.com/docs/build/sources
+6. To validate connection change directory to the root project and run `dbt debug`
+7. Run your first model `dbt run -s my_first_dbt_model`
+8. If database not found don't forget to create it first using `CREATE DATABASE <DB_NAME>;`
+9. Setup profiles.yml https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup
+10. Setup sources https://docs.getdbt.com/docs/build/sources
 
 # Hardening profiles.yml
 1. Open the profiles.yml
