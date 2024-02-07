@@ -1,3 +1,6 @@
+-- Create Database
+CREATE DATABASE IF NOT EXISTS DBT_MODEL;
+
 -- Change database to DBT_MODEL
 USE DBT_MODEL;
 
