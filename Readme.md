@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 # How to DBT Init
 1. Create python virtual environment `python3 -m venv env`
 2. Install the requirements.txt `python3 -m pip install -r requirements.txt`
